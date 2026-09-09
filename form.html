@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- Interpret the bytes in this HTML file using UTF-8 encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Application Form</h1>
+    </header>
+    <main>
+        <form>
+            <b><label for="fname">First Name:</label></b>
+            <input name="fname" type="text" id="fname">
+
+            <b><label for="lname">Last Name:</label></b>
+            <input name="lname" type="text" id="lname">
+
+            <br /><br />
+
+            <b><label for="birthday">Date of birth:</label></b>
+            <input name="birthday" type="date" id="birthday">
+
+            <b><label for="age">Age:</label></b>
+            <input name="age" type="number" id="age" min="18" max="65">
+
+            <br /><br />
+
+            <!-- id: allow label, css, js to target the element -->
+            <!-- name: is the key that used when the form is submitted -->
+            <b><label for="gender">Gender:</label></b>
+            <select name="gender" id="gender">
+                <!-- value: the actual value sent with that key -->
+                <!-- What between tags is what the user sees-->
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <b><label for="email">Email Address:</label></b>
+            <input name="email" type="email" id="email" placeholder="Enter email address">
+
+            <br /><br />
+
+            <b><span>Positions Available:</span></b>
+            <input name="position" type="radio" id="junior" value="Junior Developer">
+            <b><label for="junior">Junior Developer</label></b>
+            <input name="position" type="radio" id="mid" value="Mid-level Developer">
+            <b><label for="mid">Mid-level Developer</label></b>
+            <input name="position" type="radio" id="senior" value="Senior Developer">
+            <b><label for="senior">Senior Developer</label></b>
+            <b><label for="senior">Senior Developer</label></b>
+
+            <br /><br />
+
+            <b><span>Programming Languages:</span></b>
+            <input name="languages" type="checkbox" id="java" value="java">
+            <b><label for="java">Java</label></b>
+            <input name="languages" type="checkbox" id="javascript" value="javascript">
+            <b><label for="java">JavaScript</label></b>
+            <input name="languages" type="checkbox" id="python" value="python">
+            <b><label for="java">Python</label></b>
+
+            <br /><br />
+
+            <b><label for="password">Password:</label></b>
+            <input name="password" type="password" id="password">
+            <b><label for="confpass">Confirm Password:</label></b>
+            <input name="confpass" type="password" id="confpass">
+            
+            <br /><br />
+
+
+            <button type="text" id="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+</body>
