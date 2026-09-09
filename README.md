@@ -7,3 +7,5 @@
 - Page 3: Table with Specific Requirements
 
 Repo Link: *https://github.com/asmaa-aljazzar/Orange-Academy-HTML-Task*
+
+author: asmaa-aljazzar
